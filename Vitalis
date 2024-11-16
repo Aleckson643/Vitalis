@@ -1,0 +1,118 @@
+DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitalis - Saúde e Bem-Estar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            text-align: center;
+            background: #333;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .blog-post {
+            margin-bottom: 2rem;
+        }
+        .blog-post h2 {
+            color: #4CAF50;
+        }
+        .blog-post p {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vitalis</h1>
+        <p>Saúde, equilíbrio e qualidade de vida</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#blog">Blog</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre a Vitalis</h2>
+        <p>
+            Nossa missão é promover saúde, equilíbrio e qualidade de vida por meio de soluções acessíveis e confiáveis 
+            que transformam a rotina das pessoas. Trabalhamos com os valores de qualidade, inovação, transparência, 
+            acessibilidade e sustentabilidade, sempre buscando ser a marca líder em saúde e bem-estar.
+        </p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>5 Dicas para uma Vida Saudável</h3>
+            <p>Publicado em 15 de novembro de 2024</p>
+            <p>Descubra como pequenas mudanças na rotina podem transformar sua saúde e bem-estar. Leia mais...</p>
+        </div>
+        <div class="blog-post">
+            <h3>Alimentação Balanceada: O Segredo para um Corpo em Equilíbrio</h3>
+            <p>Publicado em 10 de novembro de 2024</p>
+            <p>Entenda a importância de uma alimentação saudável para melhorar sua qualidade de vida. Leia mais...</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para saber mais sobre nossos produtos e conteúdos.</p>
+        <p>Email: contato@vitalis.com.br</p>
+        <p>Telefone: (11) 98765-4321</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vitalis - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
